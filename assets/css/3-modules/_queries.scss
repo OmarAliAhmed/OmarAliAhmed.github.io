@@ -1,0 +1,36 @@
+@media (max-width: 495px) {
+    h1 {
+        font-size: 72px;
+    }
+}
+@media (max-width: 700px) {
+    .left , .right {
+        width: 100%;
+        height: 100%;
+    }
+    .container {
+        flex-direction: column;
+        overflow: visible;
+        
+    }
+    .languages , .favorite-work , .computer-skills , .qoute , .idol {
+        width: 100%;
+        
+    }
+    .idol {
+        height: 100%;
+    }
+    #bc {
+        margin-top: 50%;
+    }
+}
+@media (max-width: 585px) {
+    .email {
+        font-size: 12px;
+    }
+}
+@media (min-width: 701px) {
+    .world {
+        height: 100vh
+    }
+}
